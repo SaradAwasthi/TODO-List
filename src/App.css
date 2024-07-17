@@ -4,7 +4,7 @@ body {
 
 .container {
     border: 1px solid black;
-    width: 35%;
+    width: 50%;
     margin: 100px auto;
     background-color: aliceblue;
 }
@@ -34,4 +34,23 @@ button {
     font-weight: 700;
     text-align: center;
     color: deeppink;
+}
+
+/* TODO FIELDS USING useRef HOOK */
+
+.inputText {
+    height: 35px;
+}
+.inputDate {
+    height: 35px;
+}
+.todoFields {
+    margin-left: 4px;
+    margin-right: 2px;
+}
+.todoPage {
+    margin: 20px 10px;
+}
+.list {
+    margin-bottom: 5px;
 }
